@@ -15,6 +15,12 @@ body {
   color: white;
   margin-top: 7px;
 }
+.mont {
+  font-family: "Montserrat", sans-serif;
+}
+.rang {
+  background-color: #05182e;
+}
 /* intro */
 /* intro */
 /* intro */
@@ -23,6 +29,7 @@ body {
   background-size: cover;
   padding: 10px;
   background-repeat: no-repeat;
+  margin-top: 70px;
 }
 .introlight {
   background: url("../public/bgimg/bg1.jpg");

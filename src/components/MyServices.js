@@ -1,8 +1,8 @@
 import React from "react";
 
-const MyServices = () => {
+const MyServices = ({ checked }) => {
   return (
-    <div className="MyService">
+    <div className={checked ? "MyService" : "MyService bg-info"}>
       <h1 className="title">My Services</h1>
       <h5 className=" text-center  text-light">
         Morbi risus elit, fringilla in cursus a, molestie non dui. Nunc <br />

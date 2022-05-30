@@ -1,8 +1,12 @@
 import React from "react";
 
-const WorkedWithCompany = () => {
+const WorkedWithCompany = ({ checked }) => {
   return (
-    <div className="workedWithCompany">
+    <div
+      className={
+        checked ? "workedWithCompany" : "workedWithCompany bg-light text-dark"
+      }
+    >
       <div className="container  h-100 ">
         <div className="row  h-100 position-relative">
           <div className="col-sm-5 m-auto">

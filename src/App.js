@@ -16,10 +16,10 @@ function App() {
     <div className="theApp">
       <ResponsiveAppBar handleChange={handleChange} checked={checked} />
       <IntroImg checked={checked} />
-      <AutoPlay />
-      <WorkedWithCompany />
-      <MyProjects />
-      <MyServices />
+      <AutoPlay checked={checked} />
+      <WorkedWithCompany checked={checked} />
+      <MyProjects checked={checked} />
+      <MyServices checked={checked} />
       <div className="b2 text-center">
         <a href="..." className="title h1 hoverEffect">
           Mobile Apps{" "}

@@ -1,8 +1,10 @@
 import React from "react";
 
-const MyProjects = () => {
+const MyProjects = ({ checked }) => {
   return (
-    <div className="projectContainer">
+    <div
+      className={checked ? "projectContainer" : "projectContainer bg-secondary"}
+    >
       <h1>My Projects</h1>
       <div className="grid image-grid">
         <div className="grid-block">
