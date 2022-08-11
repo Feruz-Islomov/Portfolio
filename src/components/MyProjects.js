@@ -12,7 +12,7 @@ const MyProjects = ({ checked }) => {
             <a className="tile-link" href="...">
               <img
                 className="tile-img tile-img1"
-                src="https://lh3.googleusercontent.com/pw/ACtC-3eqDpYXSzQK9Gr8Dm6pRBTXg65teqvPUlndvrG31BEmbHGYSiGja4ZhpI86_b5pYG_nWHZvi0-a2svpmvqtfGHSqLAypliNdl9vI-xGKT0XixvVSzroZ0e7HXFeyVoNyU5XMuMoEzf5f6VgQbmIO2yr=w1384-h791-no"
+                src="./bgimg/bg1.jpg"
                 alt="img"
               />
             </a>

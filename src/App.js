@@ -5,13 +5,14 @@ import MyServices from "./components/MyServices";
 import ResponsiveAppBar from "./components/NavBar";
 import AutoPlay from "./components/SkillSlider";
 import WorkedWithCompany from "./components/WorkedWithCompany";
-import React from "react";
+import React, { useEffect } from "react";
 
 function App() {
   const [checked, setChecked] = React.useState(true);
   const handleChange = (e) => {
     setChecked(e.target.checked);
   };
+
   return (
     <div className="theApp">
       <ResponsiveAppBar handleChange={handleChange} checked={checked} />

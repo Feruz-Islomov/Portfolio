@@ -4,7 +4,7 @@ import ArrowForwardIcon from "@mui/icons-material/ArrowForward";
 
 const IntroImg = ({ checked }) => {
   return (
-    <div className={checked ? "introBox" : " introBox introlight"}>
+    <div id="top" className={checked ? "introBox" : " introBox introlight"}>
       <Container className="introBox2">
         <div className="intro">
           <img className="avatar" src="./man.png" height="400px" alt="img" />

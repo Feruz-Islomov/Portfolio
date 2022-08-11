@@ -3,6 +3,7 @@ import React from "react";
 const WorkedWithCompany = ({ checked }) => {
   return (
     <div
+      id="projects"
       className={
         checked ? "workedWithCompany" : "workedWithCompany bg-light text-dark"
       }
@@ -21,7 +22,7 @@ const WorkedWithCompany = ({ checked }) => {
           </div>
           <div className="col-sm-7 m-auto h-50 ">
             <div className="row">
-              <div className="col-sm-4 mb-5">
+              <div className="col-4 mb-5">
                 <div className="card mb-4  bg-warning h-75 ">
                   <img
                     src=".\companies\amazon.png"
@@ -37,7 +38,7 @@ const WorkedWithCompany = ({ checked }) => {
                   />
                 </div>
               </div>
-              <div className="col-sm-4 mt-5">
+              <div className="col-4 mt-5">
                 <div className="card mb-4  h-75">
                   <img
                     className="card-img m-auto"
@@ -53,7 +54,7 @@ const WorkedWithCompany = ({ checked }) => {
                   />
                 </div>
               </div>
-              <div className="col-sm-4 mb-5">
+              <div className="col-4 mb-5">
                 <div className="card mb-4 h-75">
                   <img
                     className="card-img m-auto"

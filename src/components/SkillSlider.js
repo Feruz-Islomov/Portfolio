@@ -17,6 +17,7 @@ const SwipeToSlide = ({ checked }) => {
   };
   return (
     <div
+      id="skills"
       className={checked ? "skillContainer" : "skillContainer light text-dark"}
     >
       <h1 style={{ textAlign: "center" }}>Technical Skills</h1>

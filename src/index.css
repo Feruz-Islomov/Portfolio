@@ -29,7 +29,7 @@ body {
   background-size: cover;
   padding: 10px;
   background-repeat: no-repeat;
-  margin-top: 70px;
+  margin-top: 55px;
 }
 .introlight {
   background: url("../public/bgimg/bg1.jpg");
@@ -296,14 +296,17 @@ body {
 /* footer */
 .footer {
   background-color: #132238;
-  height: 400px;
+  /* height: 400px; */
 }
 .light {
-  background-color: antiquewhite;
+  background-color: #efefef;
 }
 .footerContent {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
+}
+.lsize {
+  font-size: x-large;
 }

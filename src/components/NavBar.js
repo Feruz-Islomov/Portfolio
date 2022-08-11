@@ -6,79 +6,66 @@ const ResponsiveAppBar = ({ checked, handleChange }) => {
     <nav
       className={
         checked
-          ? "navbar navbar-expand-lg navbar-dark fixed-top rang mont"
-          : "navbar navbar-expand-lg navbar-light fixed-top bg-light mont"
+          ? "navbar navbar-expand-md navbar-dark fixed-top rang mont"
+          : "navbar navbar-expand-md navbar-light fixed-top bg-light mont"
       }
+      aria-label="Fourth navbar example"
     >
       <div className="container-fluid">
-        <Stack className="navbar-nav" direction="row" spacing={2}>
-          <Avatar
-            alt="Remy Sharp"
-            src="./avatar.png"
-            sx={{ width: 55, height: 55 }}
-          />
-          <h3 className="nav-item nav-link active">Feruz</h3>
-        </Stack>
-        <div
-          className="collapse navbar-collapse d-flex justify-content-end"
-          id="navbarSupportedContent"
+        <a class="navbar-brand" href="#">
+          Firuz
+        </a>
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarsCurtain"
+          aria-controls="navbarsCurtain"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
         >
-          <ul className="navbar-nav h5 me-2 mb-2 mb-lg-0">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div
+          className="collapse navbar-collapse justify-content-end"
+          id="navbarsCurtain"
+        >
+          <ul className="navbar-nav h5">
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="...">
+              <a className="nav-link active" aria-current="page" href="#top">
                 Home
               </a>
             </li>
             <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="...">
-                Contact
+              <a className="nav-link active" aria-current="page" href="#skills">
+                tech-Skills
               </a>
             </li>
-            <li className="nav-item dropdown">
+            <li className="nav-item">
               <a
-                className="nav-link dropdown-toggle"
-                href="www.google.com"
-                id="navbarScrollingDropdown"
-                role="button"
-                data-bs-toggle="dropdown"
-                aria-expanded="false"
+                className="nav-link active"
+                aria-current="page"
+                href="#projects"
               >
-                Link
+                Projects
               </a>
-              <ul
-                className="dropdown-menu"
-                aria-labelledby="navbarScrollingDropdown"
+            </li>
+            <li className="nav-item">
+              <a
+                className="nav-link active"
+                aria-current="page"
+                href="#contact"
               >
-                <li>
-                  <a className="dropdown-item" href="...">
-                    Action
-                  </a>
-                </li>
-                <li>
-                  <a className="dropdown-item" href="...">
-                    Another action
-                  </a>
-                </li>
-                <li>
-                  <hr className="dropdown-divider" />
-                </li>
-                <li>
-                  <a className="dropdown-item" href="...">
-                    Something else here
-                  </a>
-                </li>
-              </ul>
+                Contact
+              </a>
             </li>
             <Switch
               checked={checked}
               onChange={handleChange}
               inputProps={{ "aria-label": "controlled" }}
             />
-            <li className="nav-item">
-              <a className="nav-link active" aria-current="page" href="...">
-                dark mode
-              </a>
-            </li>
+            <li className="nav-item"></li>
           </ul>
         </div>
       </div>
