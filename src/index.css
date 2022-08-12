@@ -42,6 +42,9 @@ body {
   position: relative;
   overflow: auto;
 }
+.introbg {
+  background-color: rgba(181, 230, 231, 0.823);
+}
 .intro h1 {
   margin-top: 80px;
 }

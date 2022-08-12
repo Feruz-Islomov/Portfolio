@@ -13,7 +13,7 @@ const ResponsiveAppBar = ({ checked, handleChange }) => {
     >
       <div className="container-fluid">
         <a class="navbar-brand" href="...">
-          Feruz
+          <img src="./weblogo.png" width="80px" alt="wlogo" />
         </a>
         <button
           className="navbar-toggler"

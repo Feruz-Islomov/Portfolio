@@ -12,11 +12,11 @@ const WorkedWithCompany = ({ checked }) => {
         <div className="row  h-100 position-relative">
           <div className="col-sm-5 m-auto">
             <div>
-              <h1>I work with over 279+ happy clients all over the world.</h1>
-              <p>
-                Suspendisse eget ultricies felis, in lacinia lectus. Morbi
-                accumsan dapibus tortor, in fermentum odio malesuada in aliquam
-                sed ipsum tristique.
+              <h1>I worked with happy clients all over the world.</h1>
+              <p className="mont">
+                My ultimate goal is to reach the level of client satisfaction. I
+                offer them customized web app with a beautiful web design
+                well-suited to their business.
               </p>
             </div>
           </div>

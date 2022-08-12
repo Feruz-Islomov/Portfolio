@@ -6,7 +6,7 @@ const IntroImg = ({ checked }) => {
   return (
     <div id="top" className={checked ? "introBox" : " introBox introlight"}>
       <Container className="introBox2">
-        <div className="intro">
+        <div className={checked ? "intro" : " intro introbg"}>
           <img className="avatar" src="./man2.png" height="400px" alt="img" />
           <div className="introLeft">
             <h1 style={{ fontWeight: "bold" }}>
