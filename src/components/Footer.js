@@ -40,15 +40,16 @@ const Footer = ({ checked }) => {
                 <p>Resume</p>
                 <p>Article</p> */}
               </div>
-              <div className="lsize">
-                <i className="fa fa-phone  mt-4"> </i> +996 53 0867492 <br />
-                <i className="fa fa-telegram mt-4"></i> +998 93 3488522 <br />
-                <i className="fa fa-whatsapp mt-4"></i> +998 93 3488522 <br />
+              <div className="h5">
+                <i className="fas fa-phone  mt-4"> </i> +996 53 0867492 <br />
+                <i class="fab fa-telegram-plane mt-4"></i> +998 93 3488522{" "}
+                <br />
+                <i class="fab fa-whatsapp mt-4"></i> +998 93 3488522 <br />
                 <a
                   className="cursor-pointer text-decoration-none"
                   href="https://www.linkedin.com/in/feruz-islomov-js-developer/"
                 >
-                  Linked <i className="fa fa-linkedin mt-4"> </i>
+                  Linked <i className="fab fa-linkedin mt-4"> </i>
                 </a>
               </div>
               <div className="">
@@ -62,7 +63,7 @@ const Footer = ({ checked }) => {
         </div>
         <hr className="text-muted" />
         <div className="row text-center text-muted">
-          <p>All content © 2022</p>
+          <p>Copyright © 2022 Feruz. All rights reserved </p>
         </div>
       </div>
     </div>

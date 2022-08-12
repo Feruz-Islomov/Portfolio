@@ -1,4 +1,4 @@
-import { Avatar, Stack, Switch } from "@mui/material";
+import { Switch } from "@mui/material";
 import React from "react";
 
 const ResponsiveAppBar = ({ checked, handleChange }) => {
@@ -12,8 +12,8 @@ const ResponsiveAppBar = ({ checked, handleChange }) => {
       aria-label="Fourth navbar example"
     >
       <div className="container-fluid">
-        <a class="navbar-brand" href="#">
-          Firuz
+        <a class="navbar-brand" href="...">
+          Feruz
         </a>
         <button
           className="navbar-toggler"

@@ -8,7 +8,7 @@ const WorkedWithCompany = ({ checked }) => {
         checked ? "workedWithCompany" : "workedWithCompany bg-light text-dark"
       }
     >
-      <div className="container  h-100 ">
+      <div className="container h-100 ">
         <div className="row  h-100 position-relative">
           <div className="col-sm-5 m-auto">
             <div>

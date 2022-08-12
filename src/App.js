@@ -1,11 +1,11 @@
 import Footer from "./components/Footer";
 import IntroImg from "./components/IntroImg";
 import MyProjects from "./components/MyProjects";
-import MyServices from "./components/MyServices";
+// import MyServices from "./components/MyServices";
 import ResponsiveAppBar from "./components/NavBar";
 import AutoPlay from "./components/SkillSlider";
 import WorkedWithCompany from "./components/WorkedWithCompany";
-import React, { useEffect } from "react";
+import React from "react";
 
 function App() {
   const [checked, setChecked] = React.useState(true);
@@ -20,10 +20,10 @@ function App() {
       <AutoPlay checked={checked} />
       <WorkedWithCompany checked={checked} />
       <MyProjects checked={checked} />
-      <MyServices checked={checked} />
+      {/* <MyServices checked={checked} /> */}
       <div className="b2 text-center">
         <a href="..." className="title h1 hoverEffect">
-          Mobile Apps{" "}
+          Mobile Apps coming up soon!{" "}
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
