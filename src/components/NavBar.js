@@ -12,7 +12,7 @@ const ResponsiveAppBar = ({ checked, handleChange }) => {
       aria-label="Fourth navbar example"
     >
       <div className="container-fluid">
-        <a class="navbar-brand" href="...">
+        <a className="navbar-brand" href="...">
           <img src="./weblogo.png" width="80px" alt="wlogo" />
         </a>
         <button
@@ -24,7 +24,7 @@ const ResponsiveAppBar = ({ checked, handleChange }) => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <span class="navbar-toggler-icon"></span>
+          <span className="navbar-toggler-icon"></span>
         </button>
 
         <div

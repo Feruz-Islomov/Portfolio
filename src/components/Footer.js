@@ -42,9 +42,9 @@ const Footer = ({ checked }) => {
               </div>
               <div className="h5">
                 <i className="fas fa-phone  mt-4"> </i> +996 53 0867492 <br />
-                <i class="fab fa-telegram-plane mt-4"></i> +998 93 3488522{" "}
+                <i className="fab fa-telegram-plane mt-4"></i> +998 93 3488522{" "}
                 <br />
-                <i class="fab fa-whatsapp mt-4"></i> +998 93 3488522 <br />
+                <i className="fab fa-whatsapp mt-4"></i> +998 93 3488522 <br />
                 <a
                   className="cursor-pointer text-decoration-none"
                   href="https://www.linkedin.com/in/feruz-islomov-js-developer/"

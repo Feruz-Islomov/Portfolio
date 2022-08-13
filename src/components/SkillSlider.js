@@ -9,11 +9,11 @@ const SwipeToSlide = ({ checked }) => {
     centerPadding: "60px",
     slidesToShow: 4,
     swipeToSlide: true,
-    afterChange: function (index) {
-      console.log(
-        `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
-      );
-    },
+    // afterChange: function (index) {
+    //   console.log(
+    //     `Slider Changed to: ${index + 1}, background: #222; color: #bada55`
+    //   );
+    // },
   };
   return (
     <div
@@ -54,6 +54,9 @@ const SwipeToSlide = ({ checked }) => {
         </div>
         <div>
           <img className="skill" src="./skills/13.png" alt="img" />
+        </div>
+        <div>
+          <img className="skill" src="./skills/14.png" alt="img" />
         </div>
       </Slider>
     </div>
