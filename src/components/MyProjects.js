@@ -3,6 +3,7 @@ import React from "react";
 const MyProjects = ({ checked }) => {
   return (
     <div
+      id="projects"
       className={checked ? "projectContainer" : "projectContainer bg-secondary"}
     >
       <h1>My Projects</h1>
@@ -68,7 +69,12 @@ const MyProjects = ({ checked }) => {
 
         <div className="grid-block">
           <div className="tile">
-            <a className="tile-link" href="...">
+            <a
+              className="tile-link"
+              href="https://the-reg-hotel.vercel.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <img
                 className="tile-img tile-img5"
                 src="./projects/p1.png"

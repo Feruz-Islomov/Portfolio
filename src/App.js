@@ -18,12 +18,12 @@ function App() {
       <ResponsiveAppBar handleChange={handleChange} checked={checked} />
       <IntroImg checked={checked} />
       <AutoPlay checked={checked} />
-      <WorkedWithCompany checked={checked} />
+      {/* <WorkedWithCompany checked={checked} /> */}
       <MyProjects checked={checked} />
       {/* <MyServices checked={checked} /> */}
       <div className="b2 text-center">
         <a href="..." className="title h1 hoverEffect">
-          Mobile Apps coming up soon!{" "}
+          Mobile Apps coming up soon!
           <svg
             xmlns="http://www.w3.org/2000/svg"
             width="40"
